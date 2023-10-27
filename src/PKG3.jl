@@ -1,5 +1,7 @@
 module PKG3
 
-greet() = print("Hello World!")
+include("prime.jl")
+
+export prime_factors
 
 end # module PKG3

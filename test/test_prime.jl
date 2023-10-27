@@ -1,5 +1,6 @@
 using Test
+using PKG3
 
 Reihe = prime_factors(13195)
 
-@test Reihe == [3, 5, 13, 29]
+@test Reihe == [5, 7, 13, 29]
